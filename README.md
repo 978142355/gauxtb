@@ -18,7 +18,7 @@ This helps reduce the computational cost compared to relying solely on tradition
 
 ## Installation
 ```bash
-git clone [[website ](https://github.com/978142355/gauxtb)](https://github.com/978142355/gauxtb)
+git clone [https://github.com/978142355/gauxtb](https://github.com/978142355/gauxtb)
 ````
 
 Requirements:
