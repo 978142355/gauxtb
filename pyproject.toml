@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GAUXTB"
+version = "1.0.0"
+description = "Gaussian-XTB interface"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+    {name = "Zhao Jian", email = "zhaojian@lnnu.edu.cn"},
+    {name = "Yang Dong"},
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.26.3",
+    "ase>=3.23.0",
+]
+
+[tool.setuptools]
+packages = {find = {}}
+platforms = ["unix"]
